@@ -19,5 +19,15 @@ Built the back end for an e-commerce site taking working Express.js API and conf
 - WHEN I test API POST, PUT, and DELETE routes in Insomnia
 - THEN I am able to successfully create, update, and delete data in my database
 
+## Install
+To install, git clone respository and intall packages with the 'npm i' command. 
+
+NPM Install sequelize, and MYSQL2 and add an .env file with credentials added.
+
+.env file should have: DB_NAME, DB_USER, DB_PW.
+
 ## Video Walkthrough
 https://drive.google.com/file/d/1rsyOr1tExIPFB6B__zW4o-_krdnOWk6H/view
+
+## Github Repo
+https://github.com/chou8395-XOMYwl/e-commerce-backend.git
