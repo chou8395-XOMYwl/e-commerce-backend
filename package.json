@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.25.2",
@@ -8,8 +9,11 @@
   "name": "e-c-be",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/chou8395-XOMYwl/e-commerce-backend/issues"
   },
-  "homepage": "https://github.com/chou8395-XOMYwl/e-commerce-backend#readme"
+  "homepage": "https://github.com/chou8395-XOMYwl/e-commerce-backend#readme",
+  "devDependencies": {}
 }
